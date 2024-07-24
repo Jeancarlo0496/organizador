@@ -1,0 +1,30 @@
+<html class="gastos">
+    <head>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Mis finanzas</title>
+    </head>
+    <header>
+        <div>
+            <a href="index.html" id="volver1">INICIO</a>
+        </div>
+    </header>
+    <h1 id="tituloGastos">Mis Finanzas</h1>
+    <body class="gastos">
+        <h1 id="bal"></h1>
+        <div>
+            <input id="balance" placeholder="Digite el monto de su balance actual"></input>
+            <p></p>
+            <input id="pagar1" placeholder="Electricidad"></input>
+            <input id="pagar2" placeholder="25000"></input>
+            <button id="fondos1" onclick="agregarFondos()">Agregar Fondos</button>
+            <button id="fondos2" onclick="agregarPagos()">Agregar pago</button>
+            <button id="fondos3" onclick="mostrarPagos()">Mostrar pagos</button>
+        </div>
+        <div>
+            <p id="listaGastos"></p>
+            <p id="totalGastos"></p>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>

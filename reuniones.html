@@ -1,0 +1,30 @@
+<html class="agenda">
+    <head>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Mi Agenda</title>
+    </head>
+        <header>
+            <div>
+                <a href="index.html" id="volver2">INICIO</a>
+            </div>
+        </header>
+        <body class="agenda">
+            <h1 id="tAgenda">Mi Agenda</h1>
+            <div>
+                <button onclick="agregarCita()" id="bfecha1">Agregar al Calendario</button>
+                <button onclick="mostrarCitas()" id="bfecha2">Ver Mi Agenda</button>
+            </div>
+            <div>
+                <input type="text" id="nombre" placeholder="Nombre">
+                <input type="text" id="lugar" placeholder="Lugar">
+                <input type="date" id="fecha" placeholder="Selecciona una fecha">
+                <input type="time" id="hora">
+            </div>
+            <div>
+                <p id="citas"></p>
+            </div>
+        </body>
+       
+    <script src="app.js"></script>
+</html>
